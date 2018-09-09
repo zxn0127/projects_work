@@ -1,0 +1,355 @@
+html{
+	font:normal normal  12px "Microsoft  YaHei" ,"sans-serif";
+}
+body,ul,ol,dl,p,h2,h3{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+html,body{
+	height: 100%;
+	color: #fff;
+}
+.adv-wapper{
+	height: 42px;
+	background-color: #444444;
+	/*position: absolute;
+	display: none;*/
+}
+.nav{
+	background-color: #333333;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.nav-content-text{
+	height: 44px;
+	padding: 0  22px;
+ 	display: flex;
+	justify-content:  space-around;
+	line-height: 44px;
+	align-items: center;
+	margin: 0 auto;
+}
+ .nav-content{
+ 	margin: 0 auto;
+    max-width: 980px;
+ }
+.nav-content-text >li{
+	float: left;
+    height: 44px;
+}
+.nav-content-text >li:hover{
+	color: #ccc;
+	cursor: pointer;
+}
+.nav-content-text>li:nth-child(2),
+.nav-content-text>li:nth-child(3),
+.nav-content-text>li:nth-child(4),
+.nav-content-text>li:nth-child(5),
+.nav-content-text>li:nth-child(6),
+.nav-content-text>li:nth-child(7),
+.nav-content-text>li:nth-child(8){
+	display: none;
+}
+.nav-content-text>i:nth-child(1):hover{
+	color: #ccc;
+	cursor: pointer;
+	display: block;
+}
+.nav-content-text>li:nth-child(10):hover>.bag{
+	display: block;
+}
+.bag{
+	display: none;
+	background-color: #fff;
+	margin-top: 0px;
+	position: absolute;
+	height: 350px;
+	width: 200px;
+	border: 1px solid #ccc;
+	
+}
+.bag>p{
+	padding: 6px;
+}
+.bag>.bag-list li{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 8px;
+	padding: 4px;
+}
+.bag>.bag-list li>a{
+ text-decoration: none;
+ color: lightblue;
+}
+
+.fa{
+	font-size: 16px;
+	font-weight: lighter;
+	position: relative;
+
+}
+.photo-one{
+	height: 580px;
+	background-color:#fafafa;
+}
+.photo-text,.photo-text-3{
+  padding-top: 88px;
+}
+.photo-text>.photo-text-1,.photo-text-2{
+	flex-shrink: 1;
+	text-align: center;
+	color: #000;
+}
+.photo-text>.photo-text-1{
+	font-weight: 600;
+	font-size: 56px;
+}
+.photo-text>.photo-text-2{
+	font-weight: 400;
+	font-size: 27px;
+	margin-top: 6px;
+}
+.photo-lian,.photo-lian-3{	
+text-align: center;
+display: block;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+flex-shrink: 1;
+font-size: 21px;
+line-height: 1.4;
+font-weight: 400;
+letter-spacing: .011em;
+margin-top: 9px;
+}
+.photo-lian>a{
+	color: #0070c9;
+}
+.photo-lian>a:hover{
+	text-decoration: underline;
+}
+.photo-tu{
+ width: 100%;
+ height: 337px;
+ background: url("../images/one.jpg") no-repeat center;
+ margin: 0 auto;
+ padding:10px 0;
+}
+.photo-two{
+	height: 592px;
+	background-color:#f5f5f5;
+	margin-top: 8px;
+}
+.photo-tu-2{
+width: 100%;
+height: 355px;
+background: url("../images/two.jpg") no-repeat center ;
+margin: 0 auto;
+}
+.photo-three{
+	height: 592px;
+	background-color:#131218;
+	margin-top: 8px;
+}
+.photo-text-3 >.photo-text-a,.photo-text-b{
+	color: #fff;
+	flex-shrink: 1;
+	text-align: center;
+}
+.photo-text-3 >.photo-text-a{
+	margin-top: 6px;
+	font-weight: 600;
+	font-size: 56px;
+}
+.photo-text-3>.photo-text-b{
+	font-weight: 400;
+	font-size: 27px;
+}
+.photo-lian-3>a{
+	color: #fff;
+}
+.photo-lian-3>a:hover{
+	text-decoration: underline;
+}
+.photo-tu-3{
+width: 100%;
+height: 355px;
+background: url("../images/three.jpg") no-repeat center;
+margin:-30px auto;
+}
+.section{
+	margin-top: 8px;
+	width: 100%;
+	height: 584px;
+}
+.section>div{
+	width: 100%;
+	height: 582px;
+	margin: 4px 4px;
+	float: left;
+}
+.section>.left{
+	background: url("../images/pg6_03.gif")  no-repeat;
+}
+.section>.right{
+	background: url("../images/pg6_05.gif")  no-repeat;
+}
+.section>.left2{
+	background: url("../images/pgx1_06.gif")  no-repeat;
+}
+.section>.right2{
+	background: url("../images/pgx1_03.gif")  no-repeat;
+}
+.section>.left3{
+	background: url("../images/pg7_06.gif")  no-repeat;
+}
+.section>.right3{
+	background: url("../images/pg7_03.gif")  no-repeat;
+}
+.flexbox{
+	width: 100%;
+	height: 442px;
+	margin-top: 10px;
+	background-color: #f2f2f2;
+	overflow: hidden;
+    position: relative;
+}
+.content{
+	width: 1024px;
+	height: 442px;
+	margin: 0 auto;
+}
+.columns{
+	height: 200px;
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+
+}
+.columns>div:nth-child(3){
+	padding-bottom: 10px;
+}
+.columns>div:nth-child(4),.columns>div:nth-child(5){
+margin-bottom: 20px;
+}
+.column1{
+	/*float: left;*/
+width: 100%;
+height: 20px;
+box-sizing: border-box;
+position: relative;
+z-index: 1;
+margin: 0;
+padding: 0;
+/*float: left;*/
+min-height: 2px;
+line-height: 300px;
+}
+.column1-section{
+/*	display: flex;
+	justify-content: center;
+	align-items: center;*/
+width: 100%;
+/*float: left;*/
+/*height: 100px;*/
+color: #333;
+/*margin-top: 30px;*/
+font-size: 9px;
+ line-height: 1.36364;
+  font-weight: 400;
+position: absolute;
+margin-top: 6px;
+margin-bottom: 10px;
+}
+.column1-section h3{
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 8px;
+
+}
+
+.column1-section-list{
+	color: gray;
+	/*margin-right: 30px;*/
+	/*visibility: hidden;*/
+	margin: 0;
+overflow: hidden;
+padding-top: 5px;
+padding-bottom: 16px;
+top: 100%;
+left: 0;
+width: 100%;
+display: none;
+/*visibility: hidden;*/
+z-index: -1;
+/*-webkit-transform: translateY(-100px);*/
+/*-ms-transform: translateY(-100px);*/
+transform: translateY(-100px);
+}
+.column1-section-list>li{
+	margin-top: 6px;
+}
+.column1-section-list>li:hover{
+	text-decoration: underline;
+	color: #333;
+}
+.gf-footer{
+	padding-top: 34px;
+	height: 111px;
+	color: gray;
+}
+.gf-footer-shop{
+	margin-bottom: 7px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d6d6d6;
+}
+.gf-footer-shop>.nowrap>a{
+	color: #0070c9;
+}
+.gf-footer-shop>.nowrap>a:hover{
+	text-decoration: underline;
+}
+.gf-footer-locale{
+	float: right;
+}
+.gf-footer-legal{
+	height: 25px;
+}
+.gf-footer-legal-links::after{
+	content: "";
+	display: block;
+	clear: both;
+
+}
+.gf-footer-legal-copyright{
+	float: left;
+	margin-right: 20px;
+}
+.gf-footer-legal-links>a{
+	float: left;
+	color: #333;
+	border-right: 1px solid #ccc;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.gf-footer-legal-links>a:hover{
+	text-decoration: underline;
+
+}
+.content>p:last-child>a{
+	color: gray;
+}
+.content>p:last-child>a:hover{
+text-decoration: underline;
+}
+
+
+
+

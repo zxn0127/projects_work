@@ -1,0 +1,258 @@
+.j-app{
+	box-sizing: border-box;
+	width: 100%;
+}
+.j-app-mid{
+	width: 1090px;
+	margin: 0 auto;
+	/*background-color: pink;*/
+	/*height: 400px;*/
+}
+
+/*------------------------*/
+
+		.title1 {
+			font-size: 20px;
+		}
+		.sub-title {
+			font-size: 14px;
+			color: #999;
+		}
+		/*第一类型标签，用于满额减*/
+		.label {
+			display: inline;
+			padding: .2em .4em;
+			color: #fff;
+		}
+		.label1 {
+			background-color: #e36844;
+
+		}
+		.label2 {
+			background-color:#f28f2d; 
+		}
+		.button{
+			box-sizing: border-box;
+			padding: .5em 1em;
+			border-radius: 2px;
+			display: inline-block;
+			height: 50px;
+		}
+		.button1 {
+			background-color: #f5f3ef;
+			border:1px solid #b4a078;
+			color: #b4a078;
+		}
+		.button2 {
+			background-color: #b4a078;
+			color: #fff;
+		}
+		.jianj{
+			margin:2px 8px;
+		}
+		.jianj2{
+			/*padding: 0  10px;*/
+		}
+		.border{
+			border:1px solid red;
+		}
+
+/*背景色bjs*/
+/*灰色*/
+.bjs1{
+	background-color: #f4f4f4;
+}
+/*红橙色*/
+.bjs2{
+	background-color: #e36844;
+}
+/*黄橙色*/
+.bjs3{
+	background-color: #f8bc59；
+}
+/*紫色*/
+.bjs4{
+	background-color: #c2b59a;
+}
+/*字体*/
+.zt{
+	font-size: 16px;
+	font-weight: 600;
+}
+.zt1{
+	font-size: 12px;
+	font-weight: 400;
+}
+.ztc{
+	color: #fff;
+}
+/*红色*/
+.ztc1{
+	color: #d72e3f;
+}
+/*紫红*/
+.ztc2{
+	color: #c6663e;
+}
+/*灰色*/
+.ztc3{
+	color: #999999;
+}
+/*紫色*/
+.ztc4{
+	color: #c2b59a;
+}
+.ziti5:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.ziti6{
+	text-decoration: line-through;
+}
+.j-app-desc>span{
+	margin-right: 10px;
+}
+.wrapper {
+			width: 1090px;
+			margin: 0 auto;
+		}
+		.product-photo {
+			float: left;
+			width: 530px;
+			height: 430px;
+			position:relative;
+		} 
+		.product-photo > ul {
+			position: absolute;
+			width: 74px;
+			right: 0;
+		}
+		.product-photo > ul > li {
+			box-sizing: border-box;
+			width: 74px;
+			height: 74px;
+			margin-bottom: 15px;
+		}
+		.product-photo > ul > li:hover {
+			border: 2px solid #b4a078;
+		}
+		.product-photo > ul > li:hover .large-photo{
+			z-index: 10;
+		}
+		.product-photo  img {
+			width: 100%;
+		}
+		.product-photo .large-photo {
+			position: absolute;
+			width: 430px;
+			height: 430px;
+			top: 0;
+			left: -456px;
+			background-color: #fff;
+		}
+		.product-desc {
+			width: 510px;
+			margin-left: 580px;
+			/*height: 430px;*/
+			position: relative;
+		} 
+		.product-desc .item-pj {
+			position: absolute;
+			right: 0; top: 0;
+		}
+		.product-desc p {
+			line-height: 2;
+		}
+
+		.color1 {
+			color: #e36844;
+		}
+		.product-desc .item-desc {
+			padding: 10px;
+			background-color: #f5f3ef;
+			font-size: 12px;
+		}
+		.product-desc .item-desc td:first-child{
+			width: 50px;
+			line-height: 34px;
+		}
+		.ys{
+			margin-top: 10px;
+           position: relative;
+           line-height: 1;
+		}
+		.xpx{
+			position: relative;
+             width: 438px;
+             float: left;
+		}
+		.xpx-lists{
+			height: 134px
+			width: 438px;
+		
+		}
+		.xpx-lists::after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+
+		.xpx-lists>li{
+			float: left;
+			width: 50px;
+			height: 50px;
+			margin: 2px 10px;
+			box-sizing: border-box;
+			border: 1px solid #ddd;
+            background-color: #f4f4f4;
+		}
+		.zjs{
+			box-sizing: border-box;
+		}
+		.zjs-num{
+			margin-top: 10px;
+             margin-left: 10px;
+		}
+		.zjs-num-desc{
+			line-height: 30px;
+			/*float: left;*/
+            font-size: 12px;
+             color: #666;
+            width: 54px;
+            white-space: normal;
+		}
+		.zjs-num-filed{
+			margin-bottom: 3px;
+		}
+		.selec-num{
+			border: 1px solid #ddd;
+            overflow: hidden;
+		}
+		.less{
+			border-right: 1px solid #ddd;
+		}
+		input{
+			box-sizing: border-box;
+           border-radius: 0;
+              border: 0;
+          width: 60px;
+          margin: 0;
+            font-size: 12px;
+          text-align: center;
+        color: #333;
+		}
+		.shouc{
+			position: absolute;
+			/*left: 0;*/
+			right: 250px;
+			top: 0;
+			bottom: 0;
+			line-height: 60px;
+			text-align: center;
+
+		}
+		.go{
+			position: relative;
+		}
+		
+

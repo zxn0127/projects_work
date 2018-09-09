@@ -1,0 +1,97 @@
+html {
+	font:normal normal 12px "Microsoft YaHei","sans-serif";
+	color: #333;
+}
+body,ul,ol,dl ,p{
+	margin: 0;
+	padding: 0;
+}
+ul,ol {
+	list-style: none;
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+html,body{
+	height: 100%;
+}
+ .back{
+ 	background-image: url(./images/bg.jpg);
+ 	width: 1920px;
+ 	height: 786px;
+    animation: photo  8s both infinite linear;
+ }
+ @keyframes photo{
+ 	100%{
+ 		background-position: 1920px 0;
+ 	}
+ }
+ .wk{
+ 	background-image: url(./images/wk.png);
+ 	width: 200px;
+ 	height: 180px;
+ 	position: absolute;
+ 	left: 200px;right: 800;
+ 	top: 400px;bottom: 40px;
+
+ 	animation:people1  2s both  infinite steps(8);
+
+ }
+ @keyframes people1{
+ 	100%{
+ 		background-position: -1600px 0;
+
+ 	}
+ }
+ .bj{
+ 	background-image: url(./images/bj.png);
+ 	width: 200px;
+ 	height: 180px;
+ 	position: absolute;
+ 	left: 400px;right: 950px;
+ 	top: 400px;bottom: 40px;
+
+ 	animation:people2  2s both  infinite steps(8);
+
+ }
+ @keyframes people2{
+ 	100%{
+ 		background-position: -1600px 0;
+
+ 	}
+ }
+ .ts{
+ 	background-image: url(./images/ts.png);
+ 	width: 170px;
+ 	height: 240px;
+ 	position: absolute;
+ 	left: 550px;right: 800px;
+ 	top: 400px;bottom: 40px;
+
+ 	animation:people3  2s both  infinite steps(8);
+
+ }
+ @keyframes people3{
+ 	100%{
+ 		background-position: -1360px 0;
+
+ 	}
+ }
+ .ss{
+ 	background-image: url(./images/ss.png);
+ 	width: 210px;
+ 	height: 200px;
+ 	position: absolute;
+ 	left: 700px;right: 700px;
+ 	top: 400px;bottom: 40px;
+
+ 	animation:people4  2s both  infinite steps(8);
+
+ }
+ @keyframes people4{
+ 	100%{
+ 		background-position: -1680px 0;
+
+ 	}
+ }

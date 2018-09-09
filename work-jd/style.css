@@ -1,0 +1,217 @@
+html {
+	font:normal normal 12px "Microsoft YaHei","sans-serif";
+	color: #333;
+}
+body,ul,ol,dl ,p{
+	margin: 0;
+	padding: 0;
+}
+ul,ol {
+	list-style: none;
+}
+a {
+	color: #333;
+	text-decoration: none;
+
+}
+.header{
+			height: 70px;
+			width: 1350px;
+		}
+		.header .clearfix{
+			width: 1260px;
+			height: 70px;
+			margin: 0  auto;		
+		}
+		.clearfix>div.logo-link{
+			width: 179px;
+			height: 70px;
+			background: url(./images/logo.jpg) no-repeat center;
+			float: left;
+		}
+		.header .nav{
+			width: 330px;
+			height: 22px;
+			float: right;
+			margin:25px 25px;
+			margin-right: 50px;
+		}
+		.header .nav-ul{
+			height: 22px;
+			margin-top: 0px;
+		}
+		.header .nav-ul>li{
+			float: left;
+			width: 70px;
+			height: 22px;
+			text-align: center;
+			border-right: 1px solid #ccc;
+			margin-top: -2px;
+			list-style: none;
+			color: #666;
+			
+		}
+		.header .nav-ul>li>a{
+			color: #666;
+			text-decoration: none;
+		}
+		.header .nav-ul>li a:hover{
+			color: red;
+			text-decoration: underline  red;
+		}
+		.banner{
+			height: 400px;
+			background: url(./images/1.jpg) no-repeat center;
+		}
+		.w{
+			width: 1260px;
+			height: 694px;
+			margin:0 auto;
+		}
+		.w .ads{
+			height: 160px;
+			background: url(./images/2.jpg) no-repeat  center;
+		}
+		.w .products>div{
+			height: 450px;
+			float: left;
+		}
+		.w .products::after{
+			content: "";
+			display: block;
+			clear: both;
+	
+		}
+		.w .products .products-1,.w .products .products-2,.w .products .products-3{
+			width: 380px;
+			height: 450px;
+			padding: 10px;
+			border: 1px solid #ddd;
+			float: left;
+			margin-top: 10px;
+			margin-right: 10px;
+		}
+
+		
+		.w .products .products-1 .tu,.products-2 .tu2,.products-3 .tu3{
+			width: 390px;
+			height: 380px;
+			background-origin: padding-box;
+			margin: auto;
+		}
+		.w .products .products-1 .tu{		
+			background: url(./images/3.jpg) no-repeat center;		
+		}
+		.w .products .products-2 .tu2{		
+			background: url(./images/4.jpg) no-repeat center;		
+		}
+		.w .products .products-3 .tu3{		
+			background: url(./images/5.jpg) no-repeat center;		
+		}
+		
+		.w .products .products-1 .wenzi ,.products-2 .wenzi2,.products-3 .wenzi3{
+			width: 380px;
+			height: 38px;
+			padding: 10px 0;
+			margin-top: 10px;
+			font-size: 16px;
+		}
+		.w .products .products-1 .wenzi .wenzi1,.wenzi2,.wenzi3{
+			color: #333;
+		}
+		.w .products .products-1 .wenzi  .wenzi1-1,.wenzi1-2,.wenzi1-3{
+			    color: #2299ff;
+			    padding-right: 20px;
+		}
+		.contract{
+			width: 1300px;
+			margin: 25px  0;
+		}
+		.contract .item{
+			font-size: 14px;
+			margin-right: 49px;
+			color: #333;
+		}
+		.contract .item .i-mail{
+			width: 18px;
+			height: 17px;
+		}
+
+		.contract .item .i-mail{
+			background: url(./images/77.PNG) no-repeat center;
+		}
+		.friend{
+			height: 130px;
+			border-top: 1px solid  #ccc;
+			width: 1349px;
+		}
+		.friend .f{
+			width: 1260px;
+			margin: 0 auto;
+		}
+		.friend .f .txt{
+			font-size: 16px;
+			margin: 20px 0;
+		}
+		.friend .f .slide{
+			height: 70px;
+			width: 1300px;
+		}
+		.friend .f .slide .one,.two,.three,.four,.five,.six,.seven,.eight{
+			width: 128px;
+			height: 50px;
+			float: left;
+			border: 1px solid #ccc;
+			margin: -4px 12px;
+			
+		}
+		.friend .f .slide .one{
+			background: url(./images/firefox.jpg) no-repeat center;
+		}
+		.friend .f .slide .two{
+			background: url(./images/h.png) no-repeat center;
+		}
+		.friend .f .slide .three{
+			background: url(./images/m.png) no-repeat center;
+		}
+		.friend .f .slide .four{
+			background: url(./images/qq.jpg) no-repeat center;
+		}
+		.friend .f .slide .five{
+			background: url(./images/r.png) no-repeat center;
+		}
+		.friend .f .slide .six{
+			background: url(./images/t.png) no-repeat center;
+		}
+		.friend .f .slide .seven{
+			background: url(./images/y.png) no-repeat center;
+		}
+		.friend .f .slide .eight{
+			background: url(./images/logo.jpg) no-repeat center;
+		}
+		.footer{
+			width: 1349px;
+			height: 98px;
+			padding: 25px 0;
+			background: #181818;
+            text-align: center;
+             color: #999;
+             font-size: 12px;
+		}
+		.footer .link{
+			padding-bottom: 30px;
+		}
+		.footer .link .span{
+			font-weight: bold;
+			margin-right: 15px;
+		}
+		.footer .link a{
+			text-decoration: none;
+			color: #999;
+			padding: 0 10px;
+		}
+	    .footer .copyright{
+	    	line-height: 25px;
+	    	color: #666;
+
+	    }
